@@ -18,10 +18,9 @@ but = pygame.image.load("but.png")
 
 class button:
     list = []
-    def __init__(self, text, cord, action):
+    def __init__(self, text, cord):
          self.text = text
          self.cord = cord
-         self,action = action
          
     def draw():
         for i in button.list:
